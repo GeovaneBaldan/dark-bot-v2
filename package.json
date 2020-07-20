@@ -1,0 +1,23 @@
+{
+  "name": "helper-bot",
+  "version": "1.0.0",
+  "description": "Simple Admin Discord Bot",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon -r dotenv/config --exec babel-node src/app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "eslint": "^7.4.0",
+    "nodemon": "^2.0.4"
+  }
+}
