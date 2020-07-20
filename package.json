@@ -1,5 +1,5 @@
 {
-  "name": "helper-bot",
+  "name": "dark-bot-v2",
   "version": "1.0.0",
   "description": "Simple Admin Discord Bot",
   "main": "src/app.js",

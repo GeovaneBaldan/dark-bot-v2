@@ -1,13 +1,13 @@
-import HelperBot from './bot';
+import DarkBot from './bot';
 
-const helperBot = new HelperBot();
+const darkBot = new DarkBot();
 
-helperBot.client.once('ready', () => {
-	console.log('HelperBot is ready!');
+darkBot.client.once('ready', () => {
+	console.log('The new DarkBot is ready!');
 });
 
-helperBot.client.on('message', message => {
-	const response = helperBot.messageHandler(helperBot.client, message);
+darkBot.client.on('message', message => {
+	const response = darkBot.messageHandler(darkBot.client, message);
 
 	if (response === null) return;
 
