@@ -1,0 +1,1 @@
+web: node -r dotenv/config --exec babel-node src/app.js
